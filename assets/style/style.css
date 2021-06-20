@@ -1,0 +1,323 @@
+html {
+    margin: 1rem 1rem 1rem 1rem;
+    max-width: 100%;
+}
+
+header {
+    display: inline;
+    text-align: center;
+}
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.name, nav ul li {
+    position: relative;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+nav ul {
+    text-align: center;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;   
+  
+}
+nav ul li a {
+    color:dimgray;
+    text-decoration: none;
+}
+
+.name {
+  
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.horizontal-bar {
+    display: inline-block;
+    position: relative;
+    left: 1rem;
+    width: 95%;
+    height: 3px;
+    background-color: rgba(85, 85, 85, 0.747);
+   
+}
+
+section {
+    display: block;
+    position: absolute;
+    left: 1%;
+    width: 20%;
+    height: 30%;
+    margin: 1rem 1rem 1rem 3rem;
+
+
+
+}
+
+.AboutMe {
+    line-height: 1.5;
+    display: inline;
+
+    
+}
+
+h1 {
+    font-weight: 650;
+    font-size: x-large;
+
+}
+
+
+#photo-sb {
+    width: 45%;
+    display: block;
+    position: relative;
+    border: 2px solid #fff;
+    box-shadow: 10px 10px 5px #ccc;
+    margin-bottom: 15px;
+
+}
+
+
+main {
+    display: inline;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: 27%;
+    
+}
+
+.portfolio {
+    width: 55rem;
+    height: 100%;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+
+.featured {
+width: 47%;
+height: 15rem;
+display: inline-block;
+position: relative;
+border-color: black;
+}
+
+#Project1 {
+    width: 94.5%;
+    height: 15rem;
+}
+
+main div img {
+    width: 100%;
+    height: 100%;
+    margin: 0.1rem;
+    position: relative;
+    opacity: 0.78;
+}
+
+.project-name {
+    background-color: rgba(48, 48, 48, 0.89);
+    color: white;
+    padding: 8px;
+    position: absolute;
+    left: 0.5%;
+    top: 84%;
+    font-size: large;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+#featured-description {
+    background-color: rgba(48, 48, 48, 0.89);
+    padding: 10px;
+    left: 33%;
+    top: 40%;
+    font-size: x-large;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-shadow: 2px;
+}
+
+.form-container {
+    width: 80%;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+form {
+    padding: 0.5rem;
+    position: relative;
+    height: 100%;
+    background-color: rgba(85, 85, 85, 0.151);
+    border-radius: 20px;
+    margin: 2rem 0rem 0.5rem 0rem;
+       
+}
+
+h2 {
+    font-weight: 600;
+    font-size: large;
+    position: relative;
+
+    
+  
+}
+
+button {
+    background-color: rgba(61, 129, 255, 0.795);
+    color: white;
+    /* width: min-content; */
+    height: min-content;
+    padding: 10px;
+    border-style: none;
+    border-radius: 10px;
+}
+
+h2 {
+    position: relative;
+    margin: 0.5rem auto 0rem auto;
+    
+
+}
+
+
+
+.button {
+    /* width: 20%;
+    margin: 0.5rem auto 0rem auto; */
+    horizontal-align: center;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+input {
+    display: block;
+    border-radius: 10px;
+    margin: 0.5rem auto 0.5rem auto;
+    height: 10%;
+    width: 80%;
+    font-size: 85%;
+}
+
+div a img:hover {
+   box-shadow: 0 0 15px rgba(33, 33, 33, 0.801);
+   opacity: 0.5;
+
+}
+
+@media screen and (max-width: 768px) {
+    html {
+        overflow-x: hidden !important;
+    }
+    
+    body {
+        width: 70%;
+        margin: 0 auto;
+        
+    }
+
+    section {
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        margin: 1rem 0rem 1rem 0rem;
+    }
+    
+    form {
+        height: 60%;
+        
+    }
+
+    h2 {
+        position: relative;
+        margin: 0.5rem auto 0rem auto;
+        
+    
+    }
+    
+    .button {
+        width: 20%;
+        margin: auto;
+    }
+
+    main {
+        left: 0%;
+    }
+    .portfolio {
+        position: relative;
+        max-width: 80%;
+        max-height: 100%;
+    
+    }
+
+@media screen and (max-width: 768px) {
+    body {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    section {
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        margin: 1rem 0rem 1rem 0rem;
+    }
+    
+    form {
+        height: 60%;
+        
+    }
+    main {
+        left: 0%;
+    }
+    
+    .featured, #Project1 {
+        display: block;
+        width: 100%;
+    }
+
+
+    .portfolio {
+        position: relative;
+        max-width: 80%;
+        max-height: 100%;
+    
+    }
+
+    .project-name {
+        max-width: 100% !important;
+        font-size: normal !important;
+        font-weight: 500 !important;
+    }
+
+    #featured-description {
+    padding: 8px;
+    position: absolute;
+    left: 0.5%;
+    top: 84%;
+    font-size: large;
+    font-weight: 500;
+    text-transform: capitalize;
+    }
+  }
+
+@media screen and (max-width: 441px) {
+
+    #featured-description {
+        top: 74%;
+    }
+}
