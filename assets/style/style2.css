@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+#name-nav {
+    justify-content: space-between;
+    background-color: #e2d1c5;
+    padding: 10px;
+    color: black;
+}
+
+#name {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 10px;
+}
+
+a {
+    color: black;
+}
+
+ul {
+display: flex;
+justify-content: space-evenly;
+margin-top: 10px;
+}
+
+#about-me {
+    display: flex;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.89);
+    color: white;
+}
+
+#about-me-description {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 1.5rem;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+}
+
+#about-me-description p {
+    margin-bottom: 10px;
+    padding: 1.5rem;
+}
+
+figure {
+    width: 30%;
+    height: 100%;
+    margin: 0;
+}
+
+#greeting {
+    font-size: 3em;
+}
+
+#portfolio {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #F8F0EA;
+}
+
+.subheading {
+    text-align: center;
+    font-size: 2em;
+    line-height: 1.5;
+    padding: 1.5rem;
+    font-weight: 500;
+}
+
+.projects {
+    width: 40%;
+    flex-basis: auto;
+    
+}
+
+.project-images {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 75%;
+}
+
+#featured {
+    width: 80%;
+}
+
+#featured-image {
+    width: 100%;
+}
+
+.nofeature {
+    width: 50%;
+}
+
+#contact-me-container {
+    background-color: #E1D6CE;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact-span {
+    text-align: center;
+}
+
+#contact-me-form {
+    width: 30%;   
+}
+
+button {
+    margin-top: 10px;
+}
+
+#social-handles {
+    background-color: rgba(0, 0, 0, 0.89);
+    color: white;
+    padding: 1.5rem;
+}
+
+#social-logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#social-logos a {
+    width: max-content;
+    padding: 0.5rem;
+
+}

@@ -195,7 +195,7 @@ h2 {
 .button {
     /* width: 20%;
     margin: 0.5rem auto 0rem auto; */
-    horizontal-align: center;
+    text-align: center;
 }
 
 button:hover {
@@ -262,6 +262,7 @@ div a img:hover {
         max-height: 100%;
     
     }
+}
 
 @media screen and (max-width: 768px) {
     body {

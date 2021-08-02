@@ -1,107 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sarah Beltier's Portfolio</title>
-    <link rel="stylesheet" href="assets/style/reset.css">
-    <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="assets/style/style2.css">
+
 </head>
+
 <body>
-    <header>
-        <div class="name">
-            <p>Sarah Nicole Beltier</p>
+    <!-- Content Start -->
+    <div id="content-all">
+        <!-- Header -->
+        <div id="name-nav" class="container box">
+            <!-- Name/Logo -->
+            <div id="name">Sarah Nicole Beltier</div>
+            <!-- Navigation Bar-->
+            <div id="nav-bar">
+                <ul>
+                    <li><a href="#about-me">About Me</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li>
+                        <a href="https://drive.google.com/file/d/1ynAbxlAw2wVpTnaCZD39VoZpa9-RmLKB/view?usp=sharing" target="_blank">
+                        Resume
+                        </a>
+                    </li>
+                    <li><a href="#contact-me-form">Contact Me</a></li>
+                </ul>
+            </div>
         </div>
-        <nav>
-            
-            <ul>
-                <li>
-                    <a href="#AboutMe">About Me</a> |
-                </li>
-                <li>
-                    <a href="#Projects">Projects</a> |
-                </li>
-                <li>
-                    <a href="#ContactMe">Contact Me</a>
-                </li>
-            </ul>
-        </nav>
-        
+        <!-- About Me Section -->
+        <div id="about-me" class="container">
+            <!-- Description -->
+            <div id="about-me-description">
+                <p>
+                    <span id="greeting">
+                        Hi, I'm Sarah!
+                    </span>
+                    <br>
+                    <br>
+                    I am a digital marketer that specializes in creating remarkable experiences for your prospects and
+                    customers. As an up and coming web developer, I plan to focus on creating effortless experiences for
+                    users.
+                </p>
+                <!-- Resume -->
+                <a href="https://drive.google.com/file/d/1ynAbxlAw2wVpTnaCZD39VoZpa9-RmLKB/view?usp=sharing" target="_blank">
+                    <button class="button is-light">View Resume</button>
+                </a>
 
-        <div class="horizontal-bar">
+            </div>
+            <!-- Image -->
+            <figure>
+                <img src="assets/images/me2.jpg" id="photo-sb">
+            </figure>
+        </div>
+        <!-- Portfolio Section -->
+        <div id="portfolio" class="container tile-ancestor">
+            <span class="subheading">
+                Portfolio
+            </span>
+            <div class="project-images">
+                <div  class="tile projects" id="featured">
+                    <img src="assets/images/work-day-scheduler-cover.jpg" id="featured-image" alt="placeholder">
+                </div>
+                <div id="project2" class="tile projects nofeature">
+                    <img src="assets/images/weather-dashboard-cover-16-9.jpg">
+                </div>
+                <div id="project3" class="tile projects nofeature">
+                    <img src="assets/images/password-generator-cover-16-9.jpg">
+                </div>
+                <div id="project4" class="tile projects nofeature">
+                    <img src="assets/images/coding-quiz-cover-16-9.png">
+                </div>
+                <div id="project5" class="tile projects nofeature">
+                    <img src="https://cdn.pixabay.com/photo/2016/03/27/18/54/technology-1283624_960_720.jpg">
+                </div>
+          </div>
+        </div>
+        <!-- Contact Me Form -->
+        <div id="contact-me-container" class="container">
+            <span class="subheading">Contact Me:</span>
+            <form id="contact-me-form">
+                <div class="field">
+                    <label for="name" class="label">Name:</label>
+                    <input name="name" class="input is-small" type="text" placeholder="e.g Vladimir Pugtin">
+                </div>
+                <div class="field">
+                    <label for="email" class="label">Email:</label>
+                    <input name="email" class="input is-small" type="email" placeholder="e.g vpugtin@gmail.com">
+                </div>
+                <div class="field">
+                    <label for="message" class="label">Message:</label>
+                    <textarea class="textarea is-small" name="message" placeholder="e.g woof woof"></textarea>
+                </div>
+            </form>
+            <!-- Submit Button -->
+            <button class="button is-dark">Submit</button>
+        </div>
+        <!-- Social Media -->
+        <div id="social-handles" class="container">
+            <div id="social-logos" class="container">
+                <a href="https://www.linkedin.com/in/sarah-beltier/">
+                    <img src="assets/images/linkedin-square.png" class="image is-48x48" alt="LinkedIn Logo">
+                </a>
+                <a href="https://github.com/sbeltier">
+                    <img src="assets/images/github-icon.png" class="image is-48x48" alt="GitHub Logo">
+                </a>
+
+            </div>
         </div>
 
-    </header>
-    <section>
-        <img src="assets/images/me.jpg" id="photo-sb">
-        <br>
-        <div class="AboutMe" id="AboutMe">
-            <h1>Hey, I'm Sarah.</h1>
-        
-        I am a digital marketer that specializes in creating remarkable experiences for your prospects and customers. As an up and coming web developer, I plan to focus on creating effortless experiences for users.
-        </div>
 
-        <div class="form-container" id="ContactMe"><form>
-            <header>
-                <h2>Let's connect!</h2>
-            </header>
-            <input type="text" placeholder="Name" id="ContactName">
-            <input type="email" placeholder="Email" id="Email">
-            <input type="text" placeholder="Type your message" id="message">
-            <div class="button"><button>Submit</button></div>
 
-        </form></div>
-</section>
-    
-    <main>
+    </div>
 
 
 
-      
-        <div class="portfolio" id="Projects">
-            <div class="featured" id="Project1">
-                <a href="https://sbeltier.github.io/accessibility-101/">
-                    <img src="assets/images/horiseon-01.png" alt="placeholder">
-                    <p class="project-name" id="featured-description">Accessibility Optimization</p>
-                </a>
+
+
+    <!--
+    <div class="content col-12 row">
+        <section class="container col-2">
+            <img class="img-thumbnail rounded float-start" src="assets/images/me.jpg" id="photo-sb">
+            <br>
+            <div class="AboutMe" id="AboutMe">
+                <h1>Hey, I'm Sarah.</h1>
+
+                I am a digital marketer that specializes in creating remarkable experiences for your prospects and
+                customers. As an up and coming web developer, I plan to focus on creating effortless experiences for
+                users.
             </div>
 
-            <div class="featured" id="Project2">
-                <a href="#">
-                    <img src="https://cdn.pixabay.com/photo/2016/03/27/18/54/technology-1283624_960_720.jpg" alt="placeholder">
-                    <p class="project-name">Coming Soon!</p>
-                </a>
+            <div class="form-container" id="ContactMe">
+                <form>
+                    <header>
+                        <h2>Let's connect!</h2>
+                    </header>
+                    <input type="text" placeholder="Name" id="ContactName">
+                    <input type="email" placeholder="Email" id="Email">
+                    <input type="text" placeholder="Type your message" id="message">
+                    <div class="button"><button>Submit</button></div>
+
+                </form>
             </div>
+        </section>
 
-            <div class="featured" id="Project3">
-                <a href="#">
-                    <img src="https://cdn.pixabay.com/photo/2018/05/18/15/30/webdesign-3411373_960_720.jpg" alt="placeholder">
-                    <p class="project-name">Coming Soon!</p>
-                </a>  
+        <main class="col-6">
+            <div class="portfolio" id="Projects">
+                <div class="featured" id="Project1">
+                    <a href="https://sbeltier.github.io/accessibility-101/">
+                        <img src="assets/images/horiseon-01.png" alt="placeholder">
+                        <p class="project-name" id="featured-description">Accessibility Optimization</p>
+                    </a>
+                </div>
+
+                <div class="featured" id="Project2">
+                    <a href="#">
+                        <img src="https://cdn.pixabay.com/photo/2016/03/27/18/54/technology-1283624_960_720.jpg"
+                            alt="placeholder">
+                        <p class="project-name">Coming Soon!</p>
+                    </a>
+                </div>
+
+                <div class="featured" id="Project3">
+                    <a href="#">
+                        <img src="https://cdn.pixabay.com/photo/2018/05/18/15/30/webdesign-3411373_960_720.jpg"
+                            alt="placeholder">
+                        <p class="project-name">Coming Soon!</p>
+                    </a>
+                </div>
+
+                <div class="featured" id="Project4">
+                    <a href="#">
+                        <img src="https://cdn.pixabay.com/photo/2016/11/27/18/28/wordpress-1863504_960_720.png"
+                            alt="placeholder">
+                        <p class="project-name">Coming Soon!</p>
+                    </a>
+                </div>
+
+                <div class="featured" id="Project5">
+                    <a href="#">
+                        <img src="https://cdn.pixabay.com/photo/2018/05/16/22/52/website-3407280_960_720.jpg"
+                            alt="placeholder">
+                        <p class="project-name">Coming Soon!</p>
+                    </a>
+                </div>
             </div>
+        </main>
+    </div>
 
-            <div class="featured" id="Project4">
-                <a href="#">
-                    <img src="https://cdn.pixabay.com/photo/2016/11/27/18/28/wordpress-1863504_960_720.png" alt="placeholder">
-                    <p class="project-name">Coming Soon!</p>
-                </a>
-            </div>
-
-            <div class="featured" id="Project5">
-                <a href="#">
-                    <img src="https://cdn.pixabay.com/photo/2018/05/16/22/52/website-3407280_960_720.jpg" alt="placeholder">
-                    <p class="project-name">Coming Soon!</p>
-                </a>
-            </div>
-
-        </div>
-        
-    </main>
-
-
-
+    -->
 </body>
-
 
 </html>
