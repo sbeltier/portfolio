@@ -3,6 +3,7 @@
 
 # Description
 This portfolio is an overview of what I've accomplished so far throughout UCSD's Coding Bootcamp.
+
 ![image](https://user-images.githubusercontent.com/43533765/128121176-f0569f16-76f9-42c7-bf47-4b67ac384623.png)
 
 # Usage
@@ -17,4 +18,4 @@ Save the visitor's response to the form and notify it to my email.
 ![image](https://user-images.githubusercontent.com/43533765/128121253-004c2fca-3e05-40b4-a5ab-7c6530cb97ef.png)
 
 # See it Live
-Check out my porfolio here!
+Check out my porfolio [here](https://sbeltier.github.io/portfolio/)!
