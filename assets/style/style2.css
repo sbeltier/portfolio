@@ -84,7 +84,7 @@ figure {
 .projects {
     width: 40%;
     flex-basis: auto;
-    
+    z-index: 1;
 }
 
 .project-images {
@@ -95,6 +95,23 @@ figure {
     flex-wrap: wrap;
     width: 75%;
 }
+
+.project-blurb-hide {
+    display: inline-block;
+    visibility: hidden;
+    position: relative;
+    text-align: center;
+    right: 100%;
+    
+}
+
+.project-blurb-show {
+    display: inline-block;
+    visibility: visible;
+    position: relative;
+    text-align: center;
+    right: 100%;
+    }
 
 #featured {
     width: 80%;
@@ -144,4 +161,59 @@ button {
     width: max-content;
     padding: 0.5rem;
 
+}
+
+.subheading2 {
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 1.5;
+    padding: 1.5rem;
+    font-weight: 400;
+}
+
+div div img:hover {
+    box-shadow: 0 0 15px rgba(33, 33, 33, 0.801);
+    opacity: 0.5;
+    cursor: pointer;
+ }
+
+
+.hide {
+    display: none;
+ }
+
+ .show {
+     display: block;
+ }
+
+.modal {
+    z-index: 10000;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 2%;
+    border: 1px solid #888;
+    width: 80%;
+
+}
+
+.modal-container {
+    text-align: -webkit-center;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 200%;
+    font-weight: bold;
+    z-index: 10001;
+}
+  
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
 }
