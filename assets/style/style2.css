@@ -37,9 +37,13 @@ margin-top: 10px;
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.89);
     color: white;
+    flex-direction: column;
+    align-items: center;
 }
 
-#about-me-description {
+
+
+#about-me-description, #greeting-container {
     text-align: center;
     display: flex;
     align-items: center;
@@ -52,7 +56,7 @@ margin-top: 10px;
 
 #about-me-description p {
     margin-bottom: 10px;
-    padding: 1.5rem;
+
 }
 
 figure {
@@ -217,3 +221,13 @@ div div img:hover {
     text-decoration: none;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 600px) {
+    #photo-sb {
+        width: max-content;
+    }
+
+    #about-me-description, #greeting-container {
+        padding: 1rem 1rem 1rem 1rem;
+    }
+  }
