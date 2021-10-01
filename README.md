@@ -1,5 +1,5 @@
 # Portfolio
-[last update: 8/3/2021]
+[last update: 9/30/2021]
 
 # Description
 This portfolio is an overview of what I've accomplished so far throughout UCSD's Coding Bootcamp.
